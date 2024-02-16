@@ -1,11 +1,10 @@
-# React + Vite
+# Framer Motion - useInView
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Example of using `useInView` from `framer-motion` to animate elements when they come into view.
 
-Currently, two official plugins are available:
+When 50% of the element is in view, the `useInView` hook will trigger the `ref` and `inView` properties.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This example also demonstrates how to handle a text animation using `AnimatePresence` and `motion` components.
 
 ## Usage
 
